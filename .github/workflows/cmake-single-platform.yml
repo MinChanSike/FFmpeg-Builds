@@ -15,7 +15,7 @@ on:
       buildOnly:
         description: 'Only build ffmpeg'
         type: boolean
-        default: false
+        default: true #Origin is false
         required: false   
 
 env:
